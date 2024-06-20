@@ -58,6 +58,7 @@ api:
     key: !secret api_encryption_key
 
 ota:
+  platform: esphome
   password: !secret ota_password
 
 # The web_server & sensor components can be removed without affecting core functionaility.
